@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task1</title>
+		<style>
+			* {
+				padding: 0%;
+				margin: 0%;
+			}
+			.a1 {
+				width: 100%;
+				height: 80vh;
+				background-image: url("");
+				background-position: center;
+				background-repeat: no repeat;
+				background-size: cover;
+				background-attachment: fixed;
+			}
+			.a2 {
+				background: linear-gradient(45deg, coral, pink);
+				border: 2px solid black;
+				width: 100%;
+				height: 100vh;
+				position: absolute;
+			}
+			.a3 {
+				background: linear-gradient(45deg, lightgreen, skyblue);
+				border: 2px solid black;
+				width: 40%;
+				height: 60vh;
+				margin: 50px auto;
+				box-shadow: 1px 1px 100px grey;
+				padding: 30px 10px 30px 50px;
+			}
+			h1 {
+				text-align: center;
+				color: rgb(44, 9, 9);
+				margin-top: 10px;
+			}
+			.b1 {
+				width: 130px;
+				color: whitesmoke;
+				background-color: wheat;
+			}
+			.z1 {
+				width: 460px;
+				color: whitesmoke;
+				background-color: wheat;
+			}
+			label {
+				font-weight: bold;
+			}
+			.n1 {
+				color: whitesmoke;
+				background-color: rgb(44, 9, 9);
+				width: 120px;
+				height: 30px;
+				padding: 5px;
+				margin-left: 60px;
+				text-align: center;
+				border-style: groove;
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a1">
+			<h1 style="text-align: center; color: rgb(54, 9, 9)">
+				Welcome to Geekster's
+			</h1>
+		</div>
+		<div class="a2">
+			<h1>Registration form</h1>
+			<div class="a3">
+				<form>
+					<h3>Name</h3>
+					<label> FirstName</label>
+					<input class="b1" type="text" />
+					<label style="margin-left: 40px"> LastName</label>
+					<input class="b1" type="text" /><br /><br />
+					<label>Date of Birth</label>
+					<input class="b1" type="date" />
+					<label style="margin-left:20px">Contact No.</label>
+					<input
+						style="width: 120px; background-color: wheat"
+						type="tel"
+					/><br /><br />
+					<label>E-mail Id</label><br />
+					<input class="z1" type="email" />
+
+					<h3>Gender:</h3>
+					<label>Male</label>
+					<input type="radio" name="Gender" />
+					<label>Female</label>
+					<input type="radio" name="Gender" />
+					<h4>Course</h4>
+					<label>HTML</label>
+					<input type="checkbox" />
+					<label>CSS</label>
+					<input type="checkbox" />
+					<label>JAVASCRIPT</label>
+					<input type="checkbox" />
+
+					<label for="selector" style="margin-left: 70px"
+						>Duration
+						<select id="selector">
+							<option value="car" selected>1 months</option>
+							<option>6 months</option>
+							<option>12 months</option>
+						</select>
+					</label>
+					<h4>Address</h4>
+					<label>Address line1</label><br />
+					<input class="z1" type="text" /><br />
+					<label>Address line2</label><br />
+					<input class="z1" type="text" /><br /><br />
+					<label>City:</label>
+					<input class="b1" type="text" />
+					<label style="margin-left: 113px">State</label>
+					<input class="b1" type="text" /><br /><br />
+					<button class="n1">Reset</button>
+					<button class="n1">Submit</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
