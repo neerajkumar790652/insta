@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.a1{
+ width:100%;
+ height:40px;
+ position:sticky;
+ top:0px;
+
+}
+.a1 a{
+    padding: 10px;
+    text-decoration: none;
+    font-size:x-large;
+    color: white;
+}
+a:hover{
+    background-color: peru;
+    color: purple;
+    font-size: xx-large;
+}
+.a2{
+ width:33.5%;
+ height:50px;
+ background-color:rgb(115, 126, 126);
+ float:left;
+}
+.a3{
+ width:65%;
+ height:50px;
+ background-color:rgb(115, 126, 126);
+ float:right;
+ text-align:right;
+ padding-right:20px;
+}
+.b1{
+ width:100%;
+ height:60px;
+ position:sticky;
+ top:40px;
+
+      }
+.b1:hover h1{
+    font-size:100px;
+}
+
+.b2{
+ width:35%;
+ height:60px;
+ background-color: rgb(115, 126, 126);
+ float:left;
+
+}
+.b3{
+ width:65%;
+ height:60px;
+ background-color:rgb(115, 126, 126);
+ float:right;
+}
+.b3 a{
+    padding:15px;
+    text-decoration: none;
+    font-size:large;
+    color:black;
+}
+
+.z1{
+    
+    width:100%;
+    height:80vh;
+    position: absolute;
+    margin-top:5px;
+    
+}
+.z2{
+    background-color: cornflowerblue;
+    width:25%;
+    height:50vh;
+    margin:20px auto;
+    border: 2px solid black;
+    box-shadow: 0px 0px 50px grey;
+    padding:60px 20px 20px 20px;
+
+}
+input{
+    width:300px;
+    height: 30px;
+    border:2px solid black;
+    margin:2px 15px 15px 15px;
+}
+label{ color:black;
+    margin:40px 0px 0px 30px;
+     font-weight: bold;
+    font-size:22px;
+}
+button{
+    color:whitesmoke;
+    background-color:rgb(49, 8, 8) ;
+}
+
+
+
