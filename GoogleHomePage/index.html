@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>GoogleHomePage</title>
+    <style>
+        .main{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            flex-direction: column;
+        }
+        img{
+            object-fit:contain;
+            height:100px;
+        }
+        .searchbar{
+            display:flex;
+            align-items: center;
+            border:1px solid lightgrey;
+            padding:10px 20px;
+            border-radius:1000px;
+            margin:10px;
+            height: 30px;
+            width: 80vw;
+            max-width:560px;
+ }
+
+      .searchbar input{
+          border:none;
+          outline: none;
+          padding:10px 20px;
+          flex:1;
+       } 
+       .content{
+           display:flex;
+           justify-content: center;
+           margin-top:20px;
+
+       }
+       button{
+           padding:10px 20px;
+           margin:10px ;
+           cursor:pointer;
+           background: color #f8f9fa;
+           border:none;
+       }
+       button:hover{
+           border:2px solid #f8f9fa;
+           box-shadow:0px 0px 5px grey;
+
+       }
+        .searchbar:hover{
+           box-shadow:0px 0px 5px grey;
+       }
+    </style>
+</head>
+<body>
+    <!-- main div -->
+    <div class="main">
+        <!-- image container div -->
+        <div class="image">
+            <img src="google.png" alt="image not found">
+        </div>
+        <!-- searchbar  div-->
+        <div class="searchbar">
+            <span class="material-icons">
+                search
+                </span>
+                <input type="text">
+                <span class="material-icons">
+                    mic
+                    </span>
+        </div>
+        <!-- button div -->
+        <div class="content">
+            <button>Google Search</button>
+            <button> i'm feeling lucky</button>
+        </div>
+    </div>
+</body>
+</html>
